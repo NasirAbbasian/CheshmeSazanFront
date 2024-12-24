@@ -1,3 +1,6 @@
 body {
     direction: rtl;
 }
+.menu-item:hover img {
+    filter: brightness(10);
+}
