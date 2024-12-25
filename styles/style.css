@@ -1,5 +1,6 @@
 body {
     direction: rtl;
+    font-family: Vazirmatn RD FD;
 }
 .menu-item:hover img {
     filter: brightness(10);
