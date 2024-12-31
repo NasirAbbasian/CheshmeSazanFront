@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="styles/out/index.css">
 	<link rel="stylesheet" href="font/Vazirmatn-RD-FD-font-face.css">
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="libs/datatable/dataTables.dataTables.min.css">
 	<!-- <meta http-equiv="refresh" content="2"> -->
 </head>
 
@@ -114,14 +115,91 @@
 							</div>
 						</div>
 					</section>
-					<section>Table</section>
+					<section class="">
+						<table id="personals_table" class="w-full">
+							<thead>
+								<tr>
+									<th>کد کاربر</th>
+									<th>نام و نام خانوادگی</th>
+									<th>نام پدر</th>
+									<th>کدملی</th>
+									<th>شماره تلفن</th>
+									<th>نام کاربری</th>
+									<th>عملیات</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>علی امیری</td>
+									<td>محمد</td>
+									<td>110</td>
+									<td>0910</td>
+									<td>ali</td>
+									<td>
+										<button class="bg-blue-300 text-sm text-blue-800 rounded mx-1 py-1 px-2">ویرایش</button>
+										<button class="bg-red-300 text-sm text-red-800 rounded mx-1 py-1 px-2">حذف</button>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>سعید امیری</td>
+									<td>محمد</td>
+									<td>112</td>
+									<td>0911</td>
+									<td>saeed</td>
+									<td>
+										<button class="bg-blue-300 text-sm text-blue-800 rounded mx-1 py-1 px-2">ویرایش</button>
+										<button class="bg-red-300 text-sm text-red-800 rounded mx-1 py-1 px-2">حذف</button>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>باباپیری</td>
+									<td>علی تقی</td>
+									<td>110</td>
+									<td>0910</td>
+									<td>ali</td>
+									<td>
+										<button class="bg-blue-300 text-sm text-blue-800 rounded mx-1 py-1 px-2">ویرایش</button>
+										<button class="bg-red-300 text-sm text-red-800 rounded mx-1 py-1 px-2">حذف</button>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td> مجتبی احمدپور</td>
+									<td>محمد</td>
+									<td>110</td>
+									<td>0910</td>
+									<td>ali</td>
+									<td>
+										<button class="bg-blue-300 text-sm text-blue-800 rounded mx-1 py-1 px-2">ویرایش</button>
+										<button class="bg-red-300 text-sm text-red-800 rounded mx-1 py-1 px-2">حذف</button>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>علی امیری</td>
+									<td>محمد</td>
+									<td>110</td>
+									<td>0910</td>
+									<td>ali</td>
+									<td>
+										<button class="bg-blue-300 text-sm text-blue-800 rounded mx-1 py-1 px-2">ویرایش</button>
+										<button class="bg-red-300 text-sm text-red-800 rounded mx-1 py-1 px-2">حذف</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
 				</div>
 			</main>
 
 		</div>
 	</div>
-	<script src="js/lib/chart.js"></script>
-	<script src="js/indexChart.js"></script>
+	<script src="libs/jquery-3.7.1.slim.min.js"></script>
+	<script src="libs/datatable/dataTables.min.js"></script>
+	<script src="js/personalsTable.js"></script>
 </body>
 
 </html>
