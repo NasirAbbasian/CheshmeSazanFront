@@ -23,8 +23,12 @@ function loginCheck(){
 function login (){
     var user = document.getElementById("username").value
     var pass = document.getElementById("password").value
-    axios.get(`http://localhost/api/auth/login.php?username=${user}&password=${pass}`)
-         .finally(()=>{
-            loginCheck()
-         })
+    const req = axios.create({
+      withCredentials:true,
+    })
+    req.get(`http://localhost/api/auth/login.php?username=${user}&password=${pass}`)
+    .finally(()=>{
+
+       loginCheck()
+    })
 }
